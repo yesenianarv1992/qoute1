@@ -1,37 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <link rel="stylesheet" type="text/css" href="style.css">  
-  <title>Document</title>
 </head>
 <body>
-  
-
-<div align="center" id="div_quote">
-  <div id="quote_center">
-    <p id="quote"></p><p id="author"></p>
-  </div>
-</div>
-
-<div id="left"><div class="round-button-circle"><p class="glyphicon glyphicon-arrow-left">CLICK MEEEEEEEEEEEEEEE!</p></div></div>
-
-<div id="right"><div class="round-button-circle"><p class="glyphicon glyphicon-arrow-right"></p></div></div>
-
-<a href="https://twitter.com/intent/tweet" class="fa fa-twitter"></a><div class="round-button-circle"><a class="twitter-share-button">
-</a>
-
-Tweet</a></div></div>
-
-<div id="dice"><div class="round-button-circle"><img id="dice_image" src="https://dl.dropboxusercontent.com/u/83700112/Zipline%20Quotes/dice-inverted.png"/></div></div>
-
+<h1>Random Quote Generator</h1><br>
+<div id="newQuoteSection"></div><br>
+<button onclick="genQuote()">New Quote</button>
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet">
+Tweet</a>
 <script src="object.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  </body>
-  </html>
+</body>
+</html>  

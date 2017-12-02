@@ -8,7 +8,14 @@ var quotes = [
 
 function genQuote() {
 var randomN = Math.floor(Math.random() * quotes.length);
-document.getElementById('newQuoteSection').innerHTML = quotes[randomN];
+var quote = document.getElementById('newQuoteSection').innerHTML = quotes[randomN];
+ 
+  document.getElementById("tweet").onclick = function() {
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote));
+   }
+     
+   
 }
    
+ 
    
